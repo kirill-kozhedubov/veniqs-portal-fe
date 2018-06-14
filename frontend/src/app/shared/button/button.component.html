@@ -1,0 +1,4 @@
+<button [disabled]="disabled" class="button {{ mods }}" [ngClass]="{'_loading' : loading}" (click)="click()">
+  <span [innerHTML]="text"></span>
+  <app-spinner *ngIf="loading" mods="_spinning _fill-container _white"></app-spinner>
+</button>

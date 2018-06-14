@@ -1,0 +1,65 @@
+/*
+  COLORS
+*/
+
+$color-panache: #f4f9f2;
+
+$color-shuttle-grey: #54595f;
+$color-primary-grey: #373737;
+$color-shark: #2a2c2e;
+$color-athens-grey: #f7f7f8;
+
+$color-azure-grey: #f9fafa;
+
+$color-white-lilac: #f2eff4;
+$color-cardinal: #c12335;
+$color-lavender-blush: #fff6f8;
+$color-white: #ff0006;
+$color-gainsboro: #d7d7d7;
+$color-grey: #4a4a4a;
+
+// Typography colors
+$color-link: $color-shuttle-grey;
+$color-text: $color-shark;
+
+// Tokens
+$color-primary: $color-azure-grey;
+$color-secondary: $color-cardinal;
+
+// Icon colors
+$color-icon-primary: $color-primary;
+$color-icon-secondary: $color-secondary;
+$color-icon-disabled: $color-shuttle-grey;
+$color-icon-error: $color-cardinal;
+
+//paths
+
+$image-path: '/assets/images/';
+$icons-path: '/assets/images/icons/';
+
+/*
+  BORDERS
+*/
+
+$border-dark: 1px solid $color-shuttle-grey;
+$border-gray: 1px solid $color-gainsboro;
+$basic-radius: 4px;
+
+/*
+  BOX SHADOWS
+*/
+
+$basic-box-shadow: 0 0 10px rgba(0,0,0, .2);
+
+/* TRANSITION */
+$transition-duration: .2s;
+$transition-function: ease-in-out;
+
+$main-transition: all $transition-duration $transition-function;
+
+/* Z-INDEX */
+
+
+
+
+

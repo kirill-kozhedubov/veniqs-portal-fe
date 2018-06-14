@@ -1,0 +1,19 @@
+$font-vemniq: Helvetica, Arial, sans-serif;
+
+$font-size-base: 100%;
+
+@mixin helvetica-thin-35 {
+  font-weight: 300;
+}
+
+@mixin helvetica-light-45 {
+  font-weight: 400;
+}
+
+@mixin helvetica-roman-55 {
+  font-weight: 500;
+}
+
+@mixin helvetica-medium-65 {
+  font-weight: 700;
+}

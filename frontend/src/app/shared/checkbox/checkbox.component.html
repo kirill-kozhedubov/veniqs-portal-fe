@@ -1,0 +1,5 @@
+<label class="checkbox" [ngClass]="[type === 'radio' ? '_radio' : '']">
+  <input *ngIf="!hideInput" type="checkbox" class="checkbox__input" (change)="change()" [checked]="checked">
+  <span *ngIf="!hideInput" class="checkbox__icon"><i class="iconCheckmark"></i></span>
+  <span class="checkbox__label" [ngClass]="{'_without-check' : hideInput}">{{ label }}</span>
+</label>
