@@ -6,6 +6,9 @@ import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import {SpinnerComponent} from "./spinner/spinner.component";
 import {CommonModule} from "@angular/common";
 import {HttpRestService} from "../services/http-rest-service/http-rest.service";
+import { IconComponent } from './icon/icon.component';
+import { LogoComponent } from './logo/logo.component';
+import { TextboxComponent } from './textbox/textbox.component';
 
 @NgModule({
   imports: [
@@ -16,14 +19,19 @@ import {HttpRestService} from "../services/http-rest-service/http-rest.service";
     ButtonComponent,
     CheckboxComponent,
     RadiobuttonComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    IconComponent,
+    LogoComponent,
+    TextboxComponent
 
   ],
   exports: [
     ButtonComponent,
     CheckboxComponent,
     RadiobuttonComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    IconComponent,
+    LogoComponent
   ],
   providers: [
     HttpRestService,
